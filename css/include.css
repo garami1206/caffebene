@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{}
+
+.hTop{background: #282828; height: 35px; line-height: 35px; font-size: 14px; font-weight: 100;}
+.hTop a{color: #fff;}
+
+.utill01{display: inline-block; margin-left: 30px;}
+.utill01 li{}
+.utill01 a{}
+
+.utill02{float: right; }
+.utill02 li{float: left; padding: 0 18px;}
+.utill02 li:last-child{background: url(../images/common/ico_find_store.gif) no-repeat 100%}
+.utill02 a{}
+
+.hBottom{height: 100px; line-height: 100px;}
+.hBottom h1{display: inline-block; vertical-align: middle}
+.hBottom h1 a{}
+.hBottom h1 a img{}
+
+.gnb{float: right; vertical-align: middle; display: inline-block;}
+.gnb li{float: left; margin-left: 60px;}
+.gnb li a{color: #000; font-weight: 400;}
+
+/*푸터*/
+#footer{background:#1E1E1E; position: relative;}
+
+.topBtn{position: absolute; left: 50%; top:-39px; z-index: 1; display: block; width: 102px; height: 39px;background: url(../images/common/btn_go_top.png) no-repeat; text-align: center; vertical-align: middle; line-height: 39px; }
+
+.fTop{background: #282828; height: 300px;}
+.fTop a{color: #A9A09C; font-weight: lighter; }
+.ftopMenu{padding-top: 50px;}
+.ftopMenu>li{float: left; margin-right: 80px;}
+.ftopMenu h5{color: #676468; background: url(../images/common/bar_snb.gif) no-repeat bottom left; padding-bottom: 15px; margin-bottom: 15px;  font-family: 'NanumMyeongjo'; font-size: 16px; font-weight: 900;}
+.ftopList{font-size: 13px; line-height: 25px; font-weight: lighter;}
+.ftopList li{}
+.ftopList li a{}
+
+.fBottom {padding: 60px 0; font-weight: lighter;color:#676468}
+.fBottom h1>img{width: 200px;}
+.sns{float: right;}
+.sns img{width: 30px;}
+.fbottomMenu{color:#676468; margin: 20px 0 10px; }
+.fbottomMenu li{float: left}
+.fbottomMenu li:after{content: ""; display: inline-block; width: 1px; height: 9px; background:#363436; margin: 0 10px;}
+.fbottomMenu li:last-child:after{display: none;}
+.fbottomMenu li a{color:#676468}
+
+.fbottomInfo{}
+.fbottomInfo p{font-weight: 900; font-family: 'NanumMyeongjo';}
+.fbottominfoMenu li{float: left; margin-bottom: 20px;}
+.fbottominfoMenu li:after{content: ""; display: inline-block; width: 1px; height: 9px; background:#363436; margin: 0 10px;}
+.fbottominfoMenu li:last-child:after{display: none;}
